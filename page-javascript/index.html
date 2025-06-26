@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page-JavaScript</title>
+    <script src="index.js"></script>
+</head>
+<body>
+    <h2>How to add JavaScript to a page</h2>
+    <p>
+        JavaScript is applied to your html page in a similar way to css. Whereas css uses link element to apply external style sheets and style elements to apply internal style sheets to html, javascript only needs one friend in the world of html.
+        <span>
+            -The script element
+        </span>
+    </p>
+    <br>
+    <p background-color="lemon">
+        <b>Note:</b> You can use scrimba setting up your javascript file interactive tutorial to learn how to add javascript to html file.
+    </p>
+    <br>
+    <h3>Internal JavaScript</h3>
+    <ol>
+        <li>
+            <button>
+                Click Me
+            </button>
+        </li>
+    </ol>
+    <hr>
+    <h3>External JavaScript</h3>
+    <p>
+        This works great but what if we want to put our javascript in an external file. Follow the steps below:
+    </p>
+    <ol>
+        <li>Create an <b>index.js file</b> in the same directory as your html file and call <i>index.js</i>.
+        Make sure it has a <i>.js</i> file extension as this is how it will be recognized as a javascript.</li>
+        <li>Remove your current script element at the bottom of the body element before the closing body element and add the code</li>
+        <li>Inside the <b>index.js</b>, add the script sent on Slack</li>
+        <li>Save and refresh your browser</li>
+    </ol>
+    <hr>
+    <br>
+    <h3>Inline JavaScript Handlers</h3>
+    <p>
+        Sometimes, javascript can be included inside the html element. This is called <b>Inline JavaScript</b>
+    </p>
+    <button onclick="createParagraph()">Click Me</button>
+    <p>
+        This demonstates exactly the same functionality as the previous two sections except that the button element include the inline <i>onclick</i> handler to make the function when runned.
+    </p>
+    <p><b style="background-color: aqua;">Note:</b> Make sure to remove the type module in the script tag in your head. Otherwise, it will not work
+    </p>
+    <br>
+    <b style="background-color: aqua;">Note:</b> It is bad practice to pollute your html with JavaScript and it is in efficient 
+    
+</body>
+</html>
