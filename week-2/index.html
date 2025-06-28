@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="./index.css">
+    <style>
+        h3{
+            color: #222222;
+        }
+        p{
+            color: #6b6b6b;
+        }
+    </style>
+    
+</head>
+<header id="main-header">
+    <div>
+        <h2>CSS Basics</h2>
+    </div>
+    <input type="checkbox" id="menu-toggle" hidden>
+    <label for="menu-toggle">
+        <span class="hamburger"></span>
+    </label>
+        <nav class="nav-bar">
+            <ul class="nav-list">
+                <li class="class-items"><a href="#" class="nav-link">Home</a></li>
+                <li class="class-items"><a href="#" class="nav-link">Flex</a></li>
+                <li class="class-items"><a href="#" class="nav-link">Grid</a></li>
+                <li class="class-items"><a href="#" class="nav-link">Table</a></li>
+            </ul>
+            <div class="log-reg">
+                <a href="#">Login</a>
+                <a href="#">Register</a>
+            </div>
+        </nav>
+        <div class="log-reg-lg">
+                <a href="#">Login</a>
+                <a href="#">Register</a>
+            </div>
+    
+    
+</header>
+<body>
+    <h2>CSS</h2>
+    <p>
+        Full meaning of CSS is cascading sytle sheet <span>- CSS is used to add visual appeal, organization, and a better user experience to HTML</span>
+    </p>
+    <br>
+    <p>
+        CSS(cascading style sheet) is used to style and layout webpages. For example, to alter the font, color, size, and spacing of your content, split it into multiple columns, or add animations and other decorative features.
+    </p>
+    <hr>
+    <br>
+    <h3>Three Methods of adding CSS to HTML</h3>
+    <h4 style="color: blue; text-align: center;">Method 1: Inline Styling</h4>
+    <p style="background-color: skyblue; padding: 16px;">
+        In inline styling, CSS is added to a single element using the style attribute
+    </p>
+    <br>
+    <h4>Method 2: Internal CSS</h4>
+    <p>
+        Internal CSS is used to style one single HTML file. Internal styles are adding using the style element in the head section
+    </p>
+    <br>
+    <h4>Method 3: External CSS</h4>
+    <p>
+        With external CSS, you can change the look of an entire website by changing just one file. Each HTML page must include must include a reference to the external file inside the link element in the head section
+    </p>
+    
+</body>
+</html>
